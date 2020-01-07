@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [multi-rc522.PrjPCB]
+   Generated File[multi-rc522.GTO]
+   Generated File[multi-rc522.GTS]
+   Generated File[multi-rc522.GTL]
+   Generated File[multi-rc522.GBL]
+   Generated File[multi-rc522.GBS]
+   Generated File[multi-rc522.GBP]
+   Generated File[multi-rc522.GBO]
+   Generated File[multi-rc522.GM15]
+   Generated File[multi-rc522.GPT]
+   Generated File[multi-rc522.GPB]
+   Generated File[multi-rc522.RUL]
+   Generated File[multi-rc522.EXTREP]
+   Generated File[multi-rc522.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 8:57:57 am On 2/1/2020
