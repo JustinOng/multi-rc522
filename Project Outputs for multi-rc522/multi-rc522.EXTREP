@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: multi-rc522.GBR   2/1/2020  8:57:56 am
+Gerber File Extension Report For: multi-rc522.GBR   7/1/2020  8:25:01 pm
 ------------------------------------------------------------------------------------------
 
 
@@ -7,13 +7,13 @@ Gerber File Extension Report For: multi-rc522.GBR   2/1/2020  8:57:56 am
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTL                Top Layer                               
-.GM15               Mechanical 15                           
-.GPB                Bottom Pad Master                       
-.GBL                Bottom Layer                            
-.GTS                Top Solder                              
-.GPT                Top Pad Master                          
-.GTO                Top Overlay                             
 .GBS                Bottom Solder                           
+.GBL                Bottom Layer                            
+.GPB                Bottom Pad Master                       
+.GM15               Mechanical 15                           
+.GTO                Top Overlay                             
+.GTS                Top Solder                              
 .GBO                Bottom Overlay                          
+.GPT                Top Pad Master                          
 .GBP                Bottom Paste                            
 ------------------------------------------------------------------------------------------

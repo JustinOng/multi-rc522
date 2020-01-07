@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for multi-rc522
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -76,55 +76,67 @@ DocumentPath=Project Outputs for multi-rc522\Design Rule Check - multi-rc522.htm
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.EXTREP
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBL
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBO
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBP
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBS
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GM15
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GPB
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GPT
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GTL
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GTO
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.GTS
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for multi-rc522\multi-rc522.REP
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
 DocumentPath=Project Outputs for multi-rc522\multi-rc522.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for multi-rc522\multi-rc522.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -174,7 +186,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for multi-rc522
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -285,7 +297,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=EPSON L655 Series
+TargetPrinter=OneNote (redirected 1/copy 1)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -379,13 +391,17 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=EPSON L655 Series
+TargetPrinter=OneNote (redirected 1/copy 1)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
